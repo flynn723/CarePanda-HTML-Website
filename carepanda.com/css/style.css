@@ -1,0 +1,755 @@
+/* normalize */
+body, p, ul, li, a {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, li, a {
+  color: #2c3f51;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: bold;
+  margin: 10px 0;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+/* general */
+/* general > misc */
+.full-width {
+  width: 100%;
+}
+.padding-0 {
+  padding: 0;
+}
+.xs-text-center {
+  text-align: center;
+}
+/* general > colors */
+.normal-clr {
+  color: #2c3f51;
+}
+.grey-clr {
+  color: #e6e6e6;
+}
+.white-clr {
+  color: #fff;
+}
+.purple-clr {
+  color: #9A65A5;
+}
+.green-clr {
+  color: #7a895d;
+}
+/* general > backgrounds */
+.white-bg {
+  background: #fff;
+}
+.grey-bg {
+  background: #e6e6e6;
+}
+.purple-bg {
+    background: #9a65a5;
+}
+/* general > buttons */
+.purple-btn {
+  background: #9A65A5;
+  color: #fff;
+}
+.green-btn {
+  background: #7a895d;
+  color: #fff;
+}
+/* general > media breakpoints */
+@media (max-width: 767px){
+  .xs-only-text-center {
+      text-align: center;
+  }
+}
+@media (min-width: 768px){
+  .sm-padding-right-0 {
+    padding-right: 0;
+  }
+}
+/* elements */
+/* elements > header */
+.header-top-row {
+    position: fixed;
+    top: 0;
+    height: 25px;
+    width: 100%;
+    z-index: 3;
+}
+.header-row {
+  position: fixed;
+  top: 0;
+  height: 90px;
+  width: 100%;
+  font-size: 16px;
+  z-index: 2;
+}
+.header-top-top-nav-first-btn:hover,
+.header-top-top-nav-first-btn:focus {
+  background: #9A65A5;
+  color: #fff;    
+}
+.header-top-top-nav-second-btn:hover,
+.header-top-top-nav-second-btn:focus {
+  background: #7a895d;
+  color: #fff;
+}
+.header-logo-col {
+  padding-right: 0;
+}
+.header-logo-img {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 23px 0px;
+}
+#menu-main-menu {
+  text-align: center;
+  list-style: none;
+}
+ul#menu-main-menu li a {
+    display: block;
+    margin: 34px auto;
+}
+#menu-main-menu li a:hover,
+#menu-main-menu li a:focus {
+  color: #9A65A5;
+}
+a.header-free-trial-btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    background: #9A65A5;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px 0;
+    text-align: center;
+}
+a.header-free-trial-btn:hover,
+a.header-free-trial-btn:focus {
+    background: #9A65A5;
+    color: #fff;
+}
+.header-dropdown-btn.navbar-toggle {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 14px 10px;
+  width: 100%;
+  max-width: 56px;
+  float: right;
+}
+.header-dropdown-btn.navbar-toggle .icon-bar {
+    background: #000;
+    height: 4px;
+    width: 100%;
+    display: block;
+}
+.header-dropdown-menu-fixed-row {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  margin-top: 90px;  
+}
+.header-dropdown-menu-navbar-collapse {
+    padding-top: 15px;
+}
+.header-dropdown-menu-panel-group .panel {
+  border: none;
+  background: transparent;
+}
+.header-dropdown-menu-panel-group .panel-title {
+    margin: 15px 0;
+    padding-bottom: 15px;
+    font-weight: light;
+}
+/* elements > body */
+.outer-row {
+  margin-top: 90px;
+}
+.section-body {
+    padding: 30px 0;
+}
+.section-small-body {
+    padding: 30px 0;
+}
+/* elements > body > section intro-header */
+.section-intro-header {
+  background-color: #fff;
+}
+.section-intro-header .intro-devices-img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.section-intro-header .intro-text {
+  font-size: 26px;    
+}
+.section-intro-header .app-store-btn {
+  display: block;
+  width: 100%;
+  max-width: 100px;
+  margin: 5px 0; 
+}
+.section-intro-header .col-intro-ul {
+  padding-left: 0;
+}
+.section-intro-header .col-intro-ul ul li {
+  font-size: 12px;
+}
+/* elements > body > section certifications */
+.section-certifications img.cert-img {
+    display: block;
+    width: 100%;
+    max-width: 50px;
+    margin: 0 auto;
+}
+.section-certifications img.hipaa-img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    margin: 8px auto;
+}
+/* elements > body > section features */
+.section-features .features-img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.section-features .features-purple-btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: #9A65A5;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.section-features .features-white-btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: #fff;
+    color: #9A65A5;
+    border-radius: 5px;
+    text-align: center;
+}
+/* elements > body > section pricing */
+.section-pricing .package-col {
+  margin-bottom: 15px;
+}
+.section-pricing .package-col:last-child {
+  margin-bottom: 0;
+}
+.section-pricing .package {
+    text-align: center;
+    border-radius: 5px;
+}
+.section-pricing .purple-package {
+    background: #9a65a5;
+}
+.section-pricing .green-package {
+    background: #7a895d;
+}
+.section-pricing .package-title,
+.section-pricing .package-amount {
+    margin: 0;
+    padding: 15px;
+    color: #fff;
+}
+.section-pricing .package-amount {
+    background: rgba(0,0,0,0.25);
+}
+.section-pricing .package-amount small {
+  color: #fff;
+}
+.section-pricing ul.package-selling-point {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.section-pricing .purple-package ul.package-selling-point {
+    border: 3px solid #744c7c;  
+}
+.section-pricing .green-package ul.package-selling-point {
+    border: 3px solid #5c6746;  
+}
+.section-pricing .package-selling-point li {
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 3px solid #e6e6e6;
+}
+.section-pricing .package-selling-point li:last-child {
+    border-bottom: none;
+}
+.section-pricing a.package-purple-btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    padding: 15px 5px;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    background: #9a65a5;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.section-pricing a.package-purple-btn:hover,
+.section-pricing a.package-purple-btn:focus {
+    background: #9a65a5;
+    color: #fff;
+}
+.section-pricing a.package-green-btn {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    padding: 15px 5px;
+    margin: 15px auto 0;
+    border-radius: 5px;
+    background: #7a895d;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.section-pricing a.package-green-btn:hover,
+.section-pricing a.package-green-btn:focus {
+    background: #7a895d;
+    color: #fff;
+}
+/* elements > body > section free trial */
+.section-free-trial .free-trial-btn {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: #9A65A5;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;    
+}
+/* elements > body > section about */
+.section-about {
+    background-color: #fff;
+}
+.section-about .about-device-img {
+  display: block;
+  width: 100%;
+  margin: 0 auto 15px;
+}
+.section-about .free-trial-btn {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: #9A65A5;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;    
+}
+/* elements > body > section customers */
+.section-customers .customer {
+  width: 100%;
+  height: 225px;
+  margin: 15px auto;
+  border-radius: 5px;
+}
+.section-customers .customer:first-child {
+  margin-top: 0;
+}
+.section-customers .customer:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.section-customers .customer-one {
+  background-image: url('../img/customers/admissions.jpg');
+  background-size: cover;
+}
+.section-customers .customer-one:before {
+    background-color: rgba(5, 166, 77, 0.78);
+    border-color: #05a54c;
+}
+.section-customers .customer-two {
+  background-image: url('../img/customers/clinical-team.jpg');
+  background-size: cover;
+}
+.section-customers .customer-two:before {
+    background-color: rgba(48, 161, 196, 0.78);
+    border-color: #30a0c4;
+}
+.section-customers .customer-three {
+  background-image: url('../img/customers/toxicology-laboritories.jpg');
+  background-size: cover;
+}
+.section-customers .customer-three:before {
+    background-color: rgba(122, 140, 150, 0.78);
+    border-color: #7a8c96;
+}
+.section-customers .customer-four {
+  background-image: url('../img/customers/doctors-pharmacists.jpg');
+  background-size: cover;
+}
+.section-customers .customer-four:before {
+    background-color: rgba(255, 181, 71, 0.78);
+    border-color: #ffb546;
+}
+.section-customers .circle-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-customers .circle-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.section-customers .circle-content {
+    display: table-cell;
+    padding: 2em;
+    vertical-align: middle;
+    text-align: center;
+}
+.section-customers .desc {
+  display: block;
+}
+/* elements > body > section contact */
+.section-contact-purple-btn {
+  display: inline-block;
+  background: #9A65A5;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-contact-green-btn {
+  display: inline-block;
+  background: #7a895d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.section-contact-purple-btn:hover,
+.section-contact-purple-btn:focus {
+  background: #9A65A5;
+  color: #fff;
+}
+.section-contact-green-btn:hover,
+.section-contact-green-btn:focus {
+  background: #7a895d;
+  color: #fff;
+}
+/* Contact form */
+.contact-form .form-control {
+  font-family: "walkway", sans-serif;
+  height: auto;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #9a65a5;
+  padding: 14px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #555555;
+  resize: none;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.contact-form .form-control:focus {
+  outline: 0;
+}
+.contact-form .btn-contact {
+  background: #7a895d;
+  color: #fff;
+  padding: 15px 0;
+  letter-spacing: 0.01em;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.contact-form .btn-contact:hover, .contact-form .btn-contact:focus {
+  background: #7a895d;
+  color: #fff;
+}
+.contact-form .form-group {
+  margin-bottom: 25px;
+}
+.contact-form .error {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: -15px;
+  font-size: 88%;
+  color: #2196F3;
+}
+.contact-form .has-success > .error {
+  margin-bottom: 5px;
+}
+.contact-form ::-webkit-input-placeholder {
+  color: #9A65A5;
+}
+.contact-form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #9A65A5;
+}
+.contact-form ::-moz-placeholder, .newsletter ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #9A65A5;
+}
+.contact-form :-ms-input-placeholder, .newsletter :-ms-input-placeholder {
+  color: #9A65A5;
+}
+.contact-form ::-moz-selection, .newsletter ::-moz-selection {
+  /* Code for Firefox */
+  color: #9A65A5;
+}
+.contact-form ::selection, .newsletter ::selection {
+  color: #9A65A5;
+}
+.alert-success {
+  background: transparent !important;
+  color: #7a895d !important;
+  border: 3px solid #7a895d !important;
+  padding: 14px 20px !important;
+}
+.alert-danger {
+    background: transparent !important;
+    color: #ff0000 !important;
+    border: 3px solid #ff0000 !important;
+    padding: 14px 20px !important;
+}
+/* elements > footer */
+.footer-body {
+    padding: 30px 0;
+}
+.footer-small-body {
+    padding: 30px 0;
+}
+.footer-row #footer-menu {
+  list-style: none;
+}
+.footer-row #footer-menu li {
+  display: inline-block;
+  text-align: center;
+}
+.footer-row #footer-menu li a,
+.footer-row #footer-menu li a:hover,
+.footer-row #footer-menu li a:focus {
+  color: #9A65A5;
+}  
+.footer-second-row {
+  margin-top: 15px;
+}
+.footer-second-row .telehealthcare-logo {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 15px;
+}
+/* elements > modal */
+.show-app-modal-popup,
+.show-contact-modal-popup {
+  cursor: pointer;
+}
+.modal-header {
+    border-bottom: none;
+}
+/* elements > media breakpoints */
+@media (max-width: 767px) {
+  .contact-form {
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px){
+  .sm-text-right {
+    text-align: right;
+  }  
+  /* elements > media breakpoints > header */
+  .header-row {
+    top: 25px;
+  }  
+  a.header-free-trial-btn {
+      padding: 15px 10px;
+  }      
+  .header-logo-col {
+    padding-right: initial;
+  }
+  .header-logo-img {
+      max-width: 150px;
+      margin: 28px 0;
+  }
+  .header-dropdown-menu-fixed-row {
+    margin-top: 115px;  
+  }
+  /* elements > media breakpoints > body */
+  .section-body {
+      padding: 50px 0;
+  }
+  .outer-row {
+    margin-top: 115px;
+  }
+  /* elements > media breakpoints > body > section intro header */
+  .section-intro-header {
+    background-image: url('../img/bg/white-celebration.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .section-intro-header .intro-devices-img {
+      max-width: 100%;
+  }
+  .section-intro-header .intro-text {
+    margin-top: 30px;
+    font-size: 33px;
+  }
+  .section-intro-header .col-intro-ul {
+    padding-left: initial;
+  }
+  .section-intro-header .col-intro-ul ul li {
+      font-size: 16px;
+  }
+  /* elements > media breakpoints > body > section certifications */
+  .section-certifications img.cert-img {
+      max-width: 100px;
+  }
+  .section-certifications img.hipaa-img {
+      max-width: 200px;
+      margin: 0 auto;
+  }    
+  /* elements > media breakpoints > body > section customer */
+  .section-customers .customer {
+      width: 300px;
+      height: 300px;
+  }
+  /* elements > media breakpoints > body > section features */
+  .section-features .features-purple-btn,
+  .section-features .features-white-btn {
+      margin: 0;
+  }
+  .section-features .features-img-left-wrapper .features-purple-btn,
+  .section-features .features-img-left-wrapper .features-white-btn  {
+      float: right;
+  }
+  /* elements > media breakpoints > body > section free trial */
+  .section-free-trial .free-trial-btn {
+    margin: 0;
+    float: right;    
+  }    
+  /* elements > media breakpoints > body > section about */
+  .section-about {
+      background-image: url('../img/bg/white-group-therapy.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+  }  
+  .section-about .about-device-img {
+    margin: 0 auto;
+  }
+  .section-about .free-trial-btn {
+    margin: 0;
+    float: none;    
+  }    
+  .footer-body {
+      padding: 50px 0;
+  }
+  .footer-second-row .telehealthcare-logo {
+    margin: 0;
+  }
+}
+@media (min-width: 992px){
+  .header-logo-img {
+      max-width: 215px;
+      margin: 15px 0;
+  }    
+  .section-body {
+      padding: 100px 0;
+  }
+  .section-intro-header .intro-text {
+    margin-top: 35px;
+    font-size: 44px;
+  }
+  .section-intro-header .app-store-btn {
+    max-width: 125px;
+  } 
+  .section-intro-header .col-intro-ul ul li {
+      font-size: 20px;
+  }
+  /* elements > media breakpoints > body > section customer */
+  .section-customers .customer {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+  }
+  .section-customers .customer:first-child {
+      margin: 0 auto;
+  }
+  .section-customers .desc {
+    display: none;
+  }
+  .section-customers .customer:hover .desc,
+  .section-customers .customer:focus .desc {
+    display: block;
+  }
+  /* elements > media breakpoints > footer */
+  .footer-body {
+      padding: 100px 0;
+  }
+}
+@media (min-width: 1200px){
+  /* elements > media breakpoints > header */
+  .header-logo-img {
+    max-width: 230px;
+    margin: 13px 0;
+  }    
+  /* elements > media breakpoints > body */
+  .section-body {
+      padding: 150px 0;
+  }
+  /* elements > media breakpoints > body > section intro header */
+  .section-intro-header .intro-text {
+    margin-top: 45px;
+    font-size: 54px;
+  }
+  .section-intro-header .app-store-btn {
+    max-width: 175px;
+  }
+  .section-intro-header .col-intro-ul ul li {
+      font-size: 26px;
+  }
+  /* elements > media breakpoints > body > section customer */
+  .section-customers .customer {
+      width: 225px;
+      height: 225px;
+  }
+  /* elements > media breakpoints > footer */
+  .footer-body {
+      padding: 150px 0;
+  }
+}
